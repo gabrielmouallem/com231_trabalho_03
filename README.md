@@ -13,7 +13,7 @@ Para fazer com que este projeto funcione você precisa:
 - Acessar a pasta /data_to_mongo_app/ e execute dentro dela o comando "npm install"
 - Acessar a pasta /nodejs_server/ e execute dentro dela o comando "npm install"
 
-Para rodar o projeto você precisa:
+Para rodar o projeto você siga os passos abaixo:
 
 - Abra o MongoDB Compass, a página conecte-se ao host estará aberta, apenas clique em conectar no canto inferior direito
 - Acesse a pasta /nodejs_server/ e execute dentro dela o comando:
