@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      COM231 - Trabalho 03
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding center text-center>
+
+  <ion-grid>
+    <ion-row center>
+      <ion-col>
+
+        <div style="text-align: center;">
+
+          <ion-card-header text-wrap>
+            Este programa é responsável por pegar os dados da API de Countries
+            <br><a href="https://restcountries.eu/rest/v2/all">Countries API</a>
+          </ion-card-header>
+
+          <ion-card-content text-wrap>
+            Tudo que você precisa fazer é clicar no botão enviar dados, para que os dados da WEB API sejam passados
+            para o MongoDB local através de uma sequência de POSTs feitos pelo servidor local NodeJS.
+          </ion-card-content>
+
+          <button ion-button (click)="subscribeToMongo()"> ENVIAR DADOS </button>
+
+        </div>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
